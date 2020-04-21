@@ -16,7 +16,7 @@ public class StoringUserInput {
         String streetType = Input.nextLine();
         System.out.println("What is the City? ");
         String city = Input.nextLine();
-        System.out.println("Your First Letter of the Name is: " + firstInitial + "\n" + "Your Last Name is: " + lastName + "\n" + "Your house number is: " + houseNumber);
+        System.out.print("Your First Letter of the Name is: " + firstInitial + " " + "Your Last Name is: " + lastName + " " + "Your house number is: " + houseNumber);
         System.out.println("Your Street Name is: " + streetName + "\n" + "Your Street Type is: " + "\n" + "Your city is: " + city);
     }
 }
